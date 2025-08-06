@@ -1,0 +1,9 @@
+Ticket ID,Customer ID,Issue Description,Issue Category,Date Created,Date Resolved,Resolution Description,Resolution Time (Hrs),SLA Met?,Agent ID,Customer Rating,Customer Feedback,Issue Reopened?,Final Status
+1001,1,Cannot log in to account,Login Issue,9/15/2024,9/16/2024,Password reset and browser cache cleared,2,Yes,A001,5,Quick and efficient service,No,Closed
+1002,2,Payment failed,Billing Issue,9/14/2024,9/16/2024,Reinitiated payment and confirmed success,4,Yes,A002,4,Took slightly longer than expected,No,Closed
+1003,3,App crashes on startup,Technical Issue,9/12/2024,9/18/2024,Provided software patch and reinstall steps,48,No,A001,3,"Issue resolved, but after delays",Yes,Reopened
+1004,4,How to upgrade plan?,General Inquiry,9/10/2024,9/10/2024,Provided instructions for plan upgrade,1,Yes,A003,5,Very helpful response,No,Closed
+1005,5,Error 404 on webpage,Website Issue,9/11/2024,9/12/2024,Fixed website link issue and confirmed availability,12,Yes,A002,4,"Resolved, but no follow-up",No,Closed
+1006,6,Unable to download invoice,Billing Issue,9/13/2024,9/13/2024,Sent download link for invoice manually,2,Yes,A003,5,"Great service, quick resolution",No,Closed
+1007,7,Unable to reset password,Login Issue,9/14/2024,9/14/2024,Guided through password reset process,1,Yes,A001,5,Quick assistance,No,Closed
+1008,8,Late delivery of product,Shipment Issue,9/15/2024,9/17/2024,"Contacted shipping partner, confirmed delivery",36,No,A004,2,Unhappy with the delay,No,Closed

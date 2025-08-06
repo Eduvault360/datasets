@@ -1,0 +1,642 @@
+active,activity_due,additional_assignee_list,approval,approval_history,approval_set,assigned_to,assignment_group,business_duration,business_service,business_stc,calendar_duration,calendar_stc,caller_id,category,caused_by,child_incidents,close_code,close_notes,closed_at,closed_by,cmdb_ci,comments,comments_and_work_notes,company,contact_type,contract,correlation_display,correlation_id,delivery_plan,delivery_task,description,due_date,escalation,expected_start,follow_up,group_list,hold_reason,impact,incident_state,knowledge,location,made_sla,notify,number,opened_at,opened_by,order,parent,parent_incident,priority,problem_id,reassignment_count,reopen_count,reopened_by,reopened_time,resolved_at,resolved_by,rfc,route_reason,service_offering,severity,short_description,sla_due,state,subcategory,sys_class_name,sys_created_by,sys_created_on,sys_domain,sys_domain_path,sys_id,sys_mod_count,sys_tags,sys_updated_by,sys_updated_on,task_effective_number,time_worked,universal_request,upon_approval,upon_reject,urgency,user_input,watch_list,work_end,work_notes,work_notes_list,work_start
+False,2016-12-12 17:26:36,,Not Yet Requested,,,David Loo,Network,8 Hours,Email,"28,800",1 Day 4 Hours 23 Minutes,"102,197",Joe Employee,Inquiry / Help,,0.0,Solved (Permanently),This incident is resolved.,2016-12-13 18:46:44,Joe Employee,Storage Area Network 001,"2016-12-13 12:30:14 - Joe Employee (Additional comments)
+Hi David, 
+That must be it. I was on phone calls at all three of those times and must not have had any activity on my computer. Please close this incident.
+
+2016-12-13 10:42:25 - David Loo (Additional comments)
+Hi Joe,
+I've checked in network logs and you were timed out from the VPN at 9:25AM, 10:42AM and 2:28PM. These three times coincide with entries in the exchange server logs showing you lost connection at those same times. The VPN policy is to time out a connection if it hasn't been active in 30 minutes. Please ensure the next time you lose connectivity you are still connected to the VPN.
+
+I'm going to update this incident to resolved. Please let me know if you need any more assistance.
+
+2016-12-13 07:53:01 - Joe Employee (Additional comments)
+Hi David,
+Thank you! I use the corporate VPN and was also unable to connect to the email server at 9:30AM and 10:45AM.
+
+2016-12-13 06:43:17 - David Loo (Additional comments)
+Hi Joe,
+My name is David. I'll be assisting you with this incident. Can you confirm which VPN you have been using today? I also see you were having this issue at 2:30PM. Were there any other times you can recall you had issues connecting to the email?
+
+2016-12-12 16:56:57 - Beth Anglin (Additional comments)
+Hi Joe, 
+As per discussion on call, Workaround has been provided and it has worked for you. I have verified with the Exchange team we haven't had an issue with the email server today. I'm going to assign this issue to the network team for further investigation.
+
+2016-12-12 12:43:50 - Joe Employee (Additional comments)
+Hi Beth,
+Yes, I'm connected to the VPN, although I've had to reconnect to it a couple of times. The last time I was unable to connect was 2:30PM.
+
+2016-12-12 10:52:42 - Beth Anglin (Additional comments)
+Hi Joe, 
+Are you connected to the VPN when you're having this issue? Can you identify a specific time you were unable to connect to email?
+
+2016-12-12 08:30:49 - Beth Anglin (Additional comments)
+Hi Joe, 
+My name is Beth and I'll be assisting you with your issue.
+
+2016-12-12 07:19:57 - Joe Employee (Additional comments)
+I am unable to connect to the email server. It appears to be down.
+
+","2016-12-13 12:30:14 - Joe Employee (Additional comments)
+Hi David, 
+That must be it. I was on phone calls at all three of those times and must not have had any activity on my computer. Please close this incident.
+
+2016-12-13 10:42:25 - David Loo (Additional comments)
+Hi Joe,
+I've checked in network logs and you were timed out from the VPN at 9:25AM, 10:42AM and 2:28PM. These three times coincide with entries in the exchange server logs showing you lost connection at those same times. The VPN policy is to time out a connection if it hasn't been active in 30 minutes. Please ensure the next time you lose connectivity you are still connected to the VPN.
+
+I'm going to update this incident to resolved. Please let me know if you need any more assistance.
+
+2016-12-13 07:53:01 - Joe Employee (Additional comments)
+Hi David,
+Thank you! I use the corporate VPN and was also unable to connect to the email server at 9:30AM and 10:45AM.
+
+2016-12-13 06:43:17 - David Loo (Additional comments)
+Hi Joe,
+My name is David. I'll be assisting you with this incident. Can you confirm which VPN you have been using today? I also see you were having this issue at 2:30PM. Were there any other times you can recall you had issues connecting to the email?
+
+2016-12-12 16:56:57 - Beth Anglin (Additional comments)
+Hi Joe, 
+As per discussion on call, Workaround has been provided and it has worked for you. I have verified with the Exchange team we haven't had an issue with the email server today. I'm going to assign this issue to the network team for further investigation.
+
+2016-12-12 16:56:57 - Beth Anglin (Work notes)
+Updating priority as workaround for incident has been provided.
+
+2016-12-12 12:43:50 - Joe Employee (Additional comments)
+Hi Beth,
+Yes, I'm connected to the VPN, although I've had to reconnect to it a couple of times. The last time I was unable to connect was 2:30PM.
+
+2016-12-12 10:52:42 - Beth Anglin (Additional comments)
+Hi Joe, 
+Are you connected to the VPN when you're having this issue? Can you identify a specific time you were unable to connect to email?
+
+2016-12-12 09:57:00 - Beth Anglin (Work notes)
+Increasing priority as this incident is affecting more number of users
+
+2016-12-12 09:01:24 - Beth Anglin (Work notes)
+Updating incident with correct Configuration item
+
+2016-12-12 08:30:49 - Beth Anglin (Additional comments)
+Hi Joe, 
+My name is Beth and I'll be assisting you with your issue.
+
+2016-12-12 07:19:57 - Joe Employee (Additional comments)
+I am unable to connect to the email server. It appears to be down.
+
+",ACME North America,Self-service,,,,,,I am unable to connect to the email server. It appears to be down.,,Normal,,,,,2 - Medium,Closed,False,,True,Do Not Notify,INC0000060,2016-12-12 07:19:57,Joe Employee,,,,3 - Moderate,,2.0,0.0,,,2016-12-13 13:43:14,David Loo,,,,3 - Low,Unable to connect to email,UNKNOWN,Closed,Email,Incident,employee,2016-12-12 07:19:57,global,/,1c741bd70b2322007518478d83673af3,15,,employee,2016-12-13 18:46:44,INC0000060,,,Proceed to Next Task,Cancel all future Tasks,2 - Medium,,,,"2016-12-12 16:56:57 - Beth Anglin (Work notes)
+Updating priority as workaround for incident has been provided.
+
+2016-12-12 09:57:00 - Beth Anglin (Work notes)
+Increasing priority as this incident is affecting more number of users
+
+2016-12-12 09:01:24 - Beth Anglin (Work notes)
+Updating incident with correct Configuration item
+
+",,
+False,UNKNOWN,,Not Yet Requested,,,,,0 Seconds,,0,1 Minute,114,David Miller,Hardware,,1.0,Solved (Permanently),This is not an issue with the USB port. Replaced the headset to resolve the issue.,2018-12-09 19:29:08,System Administrator,,,,,,,,,,,My computer is not detecting the headphone device. It could be an issue with the USB port.,,Normal,,,,,2 - Medium,Closed,False,,True,Do Not Notify,INC0009002,2018-09-16 05:49:23,System Administrator,,,,3 - Moderate,,0.0,0.0,,,2018-09-16 05:51:17,System Administrator,,,,3 - Low,My computer is not detecting the headphone device,UNKNOWN,Closed,,Incident,admin,2018-09-16 05:50:05,global,/,1c832706732023002728660c4cf6a7b9,9,,system,2021-03-01 14:51:47,INC0009002,,,Proceed to Next Task,Cancel all future Tasks,2 - Medium,,,,,,
+False,UNKNOWN,,Not Yet Requested,,,David Loo,Service Desk,20 Days 6 Hours 5 Minutes,,"1,749,949",84 Days 21 Hours 5 Minutes,"7,333,549",Rick Berzle,Inquiry / Help,,,Closed/Resolved by Caller,"Closed before close notes were made mandatory
+		",2020-12-06 14:55:16,Don Goodliffe,,"2020-11-30 14:51:33 - Don Goodliffe (Additional comments)
+Need this done ASAP!! Will lose business if this is not reset.
+		
+
+","2020-11-30 14:51:33 - Don Goodliffe (Additional comments)
+Need this done ASAP!! Will lose business if this is not reset.
+		
+
+",ACME North America,Phone,,,,,,I can't remember my password and need to log in. Can someone reset my password asap? I am blocked on several urgent items until I can log in again.,,Normal,,,,,1 - High,Closed,False,San Diego,False,Do Not Notify,INC0000009,2020-12-05 14:50:23,Don Goodliffe,,,,1 - Critical,,1.0,,,,2021-02-28 11:56:12,System Administrator,,,,3 - Low,Reset my password,UNKNOWN,Closed,,Incident,don.goodliffe,2020-12-11 14:51:33,global,/,46b66a40a9fe198101f243dfbc79033d,8,,admin,2021-02-28 12:16:04,INC0000009,,,,,1 - High,,,,,,
+False,UNKNOWN,,Not Yet Requested,,,Don Goodliffe,Database,21 Days 14 Hours 3 Minutes,,"1,864,990",90 Days 21 Hours 3 Minutes,"7,851,790",Fred Luddy,Database,,,Closed/Resolved by Caller,"Closed before close notes were made mandatory
+		",2020-12-04 14:54:55,Don Goodliffe,,,,ACME North America,Phone,,,,,,Currently running 10GR1 and need to upgrade to 10GR2.,,Normal,,,,,2 - Medium,Closed,False,San Diego,False,Do Not Notify,INC0000010,2020-11-29 14:53:02,Don Goodliffe,,,,4 - Low,,2.0,,,,2021-02-28 11:56:12,System Administrator,,,,3 - Low,Need Oracle 10GR2 installed,UNKNOWN,Closed,,Incident,don.goodliffe,2020-12-11 14:54:41,global,/,46b9490da9fe1981003c938dab89bda3,8,,admin,2021-02-28 12:16:35,INC0000010,,,,,3 - Low,,,,,,
+False,UNKNOWN,,Not Yet Requested,,,ITIL User,Hardware,19 Days 21 Hours 55 Minutes,,"1,720,500",83 Days 20 Hours 55 Minutes,"7,246,500",Don Goodliffe,Inquiry / Help,,,Closed/Resolved by Caller,"Closed before close notes were made mandatory
+		",2020-12-10 15:02:54,Don Goodliffe,,,,ACME North America,Phone,,,,,,I'm replacing my old phone with a Blackberry and require assistance to get it set up. I'd like to get the files and contacts transferred to the new phone and need help getting the two factor authentication app set up on it.,,Normal,,,,,2 - Medium,Closed,False,"324 South State Street, Salt Lake City,UT",False,Do Not Notify,INC0000011,2020-12-06 15:01:12,Don Goodliffe,,,,3 - Moderate,,2.0,,,,2021-02-28 11:56:12,System Administrator,,,,3 - Low,Need new Blackberry set up,UNKNOWN,Closed,,Incident,don.goodliffe,2020-12-11 15:02:15,global,/,46c03489a9fe19810148cd5b8cbf501e,7,,admin,2021-02-28 11:56:31,INC0000011,,,,,2 - Medium,,,,,,
+False,UNKNOWN,,Not Yet Requested,,,David Loo,Database,25 Days 13 Hours 49 Minutes,,"2,209,752",106 Days 20 Hours 49 Minutes,"9,233,352",Don Goodliffe,Software,,,Closed/Resolved by Caller,"Closed before close notes were made mandatory
+		",2020-12-06 15:12:02,Don Goodliffe,eFax,"2020-11-30 15:11:21 - glide.maint (Additional comments)
+please update our account to enable e-fax. 
+
+","2020-11-30 15:11:21 - glide.maint (Additional comments)
+please update our account to enable e-fax. 
+
+",ACME North America,Phone,,,,,,I tried sending a fax to a customer through the eFax online portal and also via email. My customer did not receive the fax in both instances. I don't know if this is an issue on our side with transmission or on my customer's side.,,High,,,,,3 - Low,Closed,False,"324 South State Street, Salt Lake City,UT",False,Do Not Notify,INC0000012,2020-11-13 15:07:00,Bow Ruggeri,,,,5 - Planning,,1.0,,,,2021-02-28 11:56:12,System Administrator,,,,3 - Low,Customer didn't receive eFax,UNKNOWN,Closed,,Incident,glide.maint,2020-12-11 15:11:21,global,/,46c88ac1a9fe1981014de1c831fbcf6d,6,,admin,2021-02-28 11:56:12,INC0000012,,,,,3 - Low,,,,,,
+False,UNKNOWN,,Not Yet Requested,,,David Loo,Software,19 Days 5 Hours 38 Minutes,,"1,661,930",79 Days 20 Hours 38 Minutes,"6,899,930",Joe Employee,Inquiry / Help,,,Solved (Work Around),Gave workaround,2020-12-11 15:18:40,Don Goodliffe,,,,ACME North America,Phone,,,,,,"Noticing today that any time I send an email with an attachment, it takes at least 20 seconds to send. This happens regardless of the attachment size.",,Normal,,,,,1 - High,Closed,False,,False,Do Not Notify,INC0000013,2020-12-10 15:15:58,Don Goodliffe,,,,1 - Critical,,2.0,,,,2021-02-28 11:54:48,System Administrator,,,,3 - Low,EMAIL is slow when an attachment is involved,UNKNOWN,Closed,,Incident,don.goodliffe,2020-12-11 15:18:07,global,/,46cebb88a9fe198101aee93734f9768b,5,,admin,2021-02-28 11:54:48,INC0000013,,,,,1 - High,,,,,,
+False,2021-02-21 15:58:36,,Not Yet Requested,,,Bud Richman,,26 Days 15 Hours 14 Minutes,,"2,301,243",109 Days 23 Hours 36 Minutes,"9,502,588",Bow Ruggeri,Inquiry / Help,,,Solved (Work Around),Done,2021-03-01 14:51:47,System Administrator,,"2021-02-19 17:06:00 - System Administrator (Additional comments)
+Looking at it now
+
+2020-11-30 15:38:40 - System Administrator (Additional comments)
+I don't seem to see my home dir. 
+
+","2021-02-21 09:15:15 - Rob Phillips (Work notes)
+Moved to lane 'Doing' from 'To Do'
+
+2021-02-19 17:06:00 - System Administrator (Additional comments)
+Looking at it now
+
+2020-11-30 15:38:40 - System Administrator (Additional comments)
+I don't seem to see my home dir. 
+
+",ACME North America,Phone,,,,,,Logged in and didn't see my home directory. Logged out and back in again and it's still not appearing. I'm completely blocked until this is resolved.,,Normal,,,,,1 - High,Closed,False,San Diego,False,Do Not Notify,INC0000014,2020-11-03 15:37:35,System Administrator,,,,1 - Critical,,1.0,,,,2021-02-21 15:14:03,System Administrator,,,,3 - Low,Missing my home directory,UNKNOWN,Closed,,Incident,admin,2020-11-30 15:38:40,global,/,46e18c0fa9fe19810066a0083f76bd56,33,,system,2021-03-01 14:51:47,INC0000014,,,,,1 - High,,,,"2021-02-21 09:15:15 - Rob Phillips (Work notes)
+Moved to lane 'Doing' from 'To Do'
+
+",,
+False,UNKNOWN,,Not Yet Requested,,,Beth Anglin,,20 Days 5 Hours 4 Minutes,,"1,746,251",84 Days 20 Hours 4 Minutes,"7,329,851",Fred Luddy,Inquiry / Help,,,Closed/Resolved by Caller,"Closed before close notes were made mandatory
+		",2020-12-10 15:52:17,David Loo,,,,,Phone,,,,,,"We have a new hire starting on Monday. She will need to be set up with a desk, laptop, phone, email account, and systems access.",,Normal,,,,,3 - Low,Closed,False,"2617 South Robinson Avenue, Oklahoma City,OK",False,Do Not Notify,INC0000021,2020-12-05 15:52:01,David Loo,,,,5 - Planning,,1.0,,,,2021-02-28 11:56:12,System Administrator,,,,3 - Low,New employee hire,UNKNOWN,Closed,,Incident,david.loo,2020-12-11 15:52:18,global,/,46ee0924a9fe198100f1cf78c198454a,8,,admin,2021-02-28 11:56:12,INC0000021,,,,,3 - Low,,,,,,
+False,UNKNOWN,,Not Yet Requested,,,ITIL User,Service Desk,18 Days 21 Hours 3 Minutes,,"1,631,000",78 Days 20 Hours 3 Minutes,"6,811,400",Fred Luddy,Inquiry / Help,,,Closed/Resolved by Caller,"Closed before close notes were made mandatory
+		",2020-12-11 15:53:08,David Loo,,,,,Phone,,,,,,The landing page for our internal wiki isn't loading. I've refreshed it multiple times and it keeps timing out.,,Normal,,,,,3 - Low,Closed,False,San Diego,False,Do Not Notify,INC0000024,2020-12-11 15:52:52,David Loo,,,,5 - Planning,,2.0,,,,2021-02-28 11:56:12,System Administrator,,,,3 - Low,Issue with a web page on wiki,UNKNOWN,Closed,,Incident,david.loo,2020-12-11 15:53:13,global,/,46ee8c2fa9fe198100623592c70d643e,6,,admin,2021-02-28 12:15:44,INC0000024,,,,,3 - Low,,,,,,
+False,UNKNOWN,,Not Yet Requested,,,Don Goodliffe,Hardware,25 Days 21 Hours 1 Minute,,"2,235,673",107 Days 20 Hours 1 Minute,"9,316,873",Rick Berzle,Hardware,,,Closed/Resolved by Caller,"Closed before close notes were made mandatory
+		",2020-11-14 15:56:53,Don Goodliffe,,,,ACME North America,Phone,,,,,,Hard drive has been making a loud grinding noise for the last two days.,,Normal,,,,,3 - Low,Closed,False,,False,Do Not Notify,INC0000026,2020-11-12 15:54:59,Rick Berzle,,,,5 - Planning,,2.0,,,,2021-02-28 11:56:12,System Administrator,,,,3 - Low,Seem to have an issue with my hard drive...,UNKNOWN,Closed,,Incident,don.goodliffe,2020-12-11 15:56:03,global,/,46f1784ba9fe19810018aa27fbb23482,6,,admin,2021-02-28 12:15:35,INC0000026,,,,,3 - Low,,,,,,
+False,UNKNOWN,,Not Yet Requested,,,Don Goodliffe,Service Desk,23 Days 12 Hours 58 Minutes,,"2,033,892",98 Days 19 Hours 58 Minutes,"8,539,092",Rick Berzle,Inquiry / Help,,,Closed/Resolved by Caller,"Closed before close notes were made mandatory
+		",2020-11-26 15:58:58,Don Goodliffe,,,,ACME North America,Phone,,,,,,Hard drive is still making grinding and clicking noises and now I can't delete a file. I've tried to delete it 3 times.,,Normal,,,,,3 - Low,Closed,False,,False,Do Not Notify,INC0000028,2020-11-21 15:58:00,Rick Berzle,,,,5 - Planning,,2.0,,,,2021-02-28 11:56:12,System Administrator,,,,3 - Low,My disk is still having issues. Can't delete a file,UNKNOWN,Closed,,Incident,don.goodliffe,2020-12-11 15:58:44,global,/,46f3ee0ea9fe198100c5c0e53d5abe0b,6,,admin,2021-02-28 12:15:31,INC0000028,,,,,3 - Low,,,,,,
+False,UNKNOWN,,Not Yet Requested,,,David Loo,Network,19 Days 20 Hours 55 Minutes,,"1,716,900",83 Days 19 Hours 55 Minutes,"7,242,900",Rick Berzle,Hardware,,,Closed/Resolved by Caller,"Closed before close notes were made mandatory
+		",2020-12-06 17:02:14,Don Goodliffe,,,,ACME North America,Phone,,,,,,"Can't connect to wifi. Keep getting ""unable to join network"" message.",,Normal,,,,,3 - Low,Closed,False,,False,Do Not Notify,INC0000030,2020-12-06 16:01:12,Rick Berzle,,,,5 - Planning,,1.0,,,,2021-02-28 11:56:12,System Administrator,,,,3 - Low,Lost connection to the wireless network,UNKNOWN,Closed,,Incident,don.goodliffe,2020-12-11 16:02:01,global,/,46f6ede0a9fe198100e10154c34a0c2a,6,,admin,2021-02-28 12:15:37,INC0000030,,,,,3 - Low,,,,,,
+False,UNKNOWN,,Not Yet Requested,,,David Loo,Hardware,23 Days 20 Hours 36 Minutes,,"2,061,396",99 Days 19 Hours 36 Minutes,"8,624,196",Joe Employee,Inquiry / Help,,,Closed/Resolved by Caller,"Closed before close notes were made mandatory
+		",2020-11-20 16:35:27,Don Goodliffe,,"2020-11-30 16:20:47 - Don Goodliffe (Additional comments)
+Server ran out of memory again
+
+","2020-11-30 16:20:47 - Don Goodliffe (Additional comments)
+Server ran out of memory again
+
+",ACME North America,Phone,,,,,,Multiple employees have reported that they are unable to send/receive email.,,Normal,,,,,3 - Low,Closed,False,,False,Do Not Notify,INC0000032,2020-11-20 16:19:36,Don Goodliffe,,,,5 - Planning,,1.0,,,,2021-02-28 11:56:12,System Administrator,,,,3 - Low,EMAIL Server Down Again,UNKNOWN,Closed,,Incident,don.goodliffe,2020-12-11 16:20:14,global,/,47079b68a9fe198100a614a4c225c88d,6,,admin,2021-02-28 12:15:54,INC0000032,,,,,3 - Low,,,,,,
+False,UNKNOWN,,Not Yet Requested,,,Don Goodliffe,Hardware,25 Days 6 Hours 33 Minutes,,"2,183,601",105 Days 21 Hours 33 Minutes,"9,149,601",David Loo,Inquiry / Help,,,Closed/Resolved by Caller,"Closed before close notes were made mandatory
+		",2020-11-14 16:24:08,Don Goodliffe,,,,ACME North America,Phone,,,,,,2tb file server has less than 400gb free.,,Normal,,,,,1 - High,Closed,False,"324 South State Street, Salt Lake City,UT",False,Do Not Notify,INC0000033,2020-11-14 14:22:52,David Loo,,,,1 - Critical,,1.0,,,,2021-02-28 11:56:13,System Administrator,,,,3 - Low,File Server is 80% full - Needs upgrade,UNKNOWN,Closed,,Incident,don.goodliffe,2020-12-11 16:23:54,global,/,470af5afa9fe198101b324dd773ef379,6,,admin,2021-02-28 12:15:24,INC0000033,,,,,1 - High,,,,,,
+False,UNKNOWN,,Not Yet Requested,,,David Loo,Software,23 Days 20 Hours 46 Minutes,,"2,061,992",99 Days 19 Hours 46 Minutes,"8,624,792",Rick Berzle,Software,,,Solved Remotely (Permanently),asdasdasdsad,2020-11-12 16:26:41,Don Goodliffe,,"2021-02-19 08:12:01 - System Administrator (Additional comments)
+Comment
+
+","2021-02-19 08:12:01 - System Administrator (Additional comments)
+Comment
+
+",ACME North America,Phone,,,,,,Last automated backup occurred two nights ago. Did we change automated backup schedule?,,Normal,,,,,1 - High,Closed,False,,False,Do Not Notify,INC0000034,2020-11-11 12:25:29,Don Goodliffe,,,,1 - Critical,,1.0,,,,2021-02-19 08:12:01,System Administrator,,,,3 - Low,Does not look like a backup occurred last night,UNKNOWN,Closed,,Incident,don.goodliffe,2020-11-30 16:26:28,global,/,470d51a0a9fe1981006c20c825e48933,7,,admin,2021-02-28 11:53:47,INC0000034,,,,,1 - High,,,,,,
+False,UNKNOWN,,Not Yet Requested,,,Luke Wilson,Service Desk,19 Days 19 Hours 56 Minutes,,"1,713,373",81 Days 19 Hours 23 Minutes,"7,068,206",Natasha Ingram,Inquiry / Help,,,Closed/Resolved by Caller,"Closed before close notes were made mandatory
+		",2020-12-11 16:33:33,David Loo,CALLXPR1,,,ACME North America,Phone,,,,,,Forgot password and unable to log in. Can you reset or resend my password?,,Normal,,,,,3 - Low,Closed,False,"1050 Sunnyview Road Northeast, Salem,OR",False,Do Not Notify,INC0000035,2020-12-08 16:32:47,David Loo,,,,5 - Planning,,2.0,,,,2021-02-28 11:56:13,System Administrator,,,,3 - Low,Reset my password,UNKNOWN,Closed,,Incident,david.loo,2020-12-11 16:33:14,global,/,47138238a9fe1981016e3762d1fd26d4,8,,admin,2021-02-28 12:16:15,INC0000035,,,,,3 - Low,,,,,,
+False,UNKNOWN,,Not Yet Requested,,,Luke Wilson,Network,20 Days 4 Hours 22 Minutes,,"1,743,744",84 Days 19 Hours 22 Minutes,"7,327,344",Carol Coughlin,Inquiry / Help,,,Closed/Resolved by Caller,"Closed before close notes were made mandatory
+		",2020-12-09 16:34:21,David Loo,DatabaseServer2,,,ACME North America,Phone,,,,,,Experiencing connection issues. Unable to create connection to data source.,,Normal,,,,,3 - Low,Closed,False,San Diego,False,Do Not Notify,INC0000036,2020-12-05 16:33:49,David Loo,,,,5 - Planning,,1.0,,,,2021-02-28 11:56:13,System Administrator,,,,3 - Low,Issue with networking,UNKNOWN,Closed,,Incident,david.loo,2020-12-11 16:34:28,global,/,4714a2aca9fe198100ecabacf6273482,6,,admin,2021-02-28 11:57:58,INC0000036,,,,,3 - Low,,,,,,
+False,UNKNOWN,,Not Yet Requested,,,Luke Wilson,Service Desk,20 Days 4 Hours 19 Minutes,,"1,743,569",84 Days 19 Hours 19 Minutes,"7,327,169",Bow Ruggeri,Software,,,Closed/Resolved by Caller,"Closed before close notes were made mandatory
+		",2020-12-12 16:37:14,System Administrator,Adobe Acrobat 7.0.3 and Reader 7.0.3 Update,"2020-11-30 16:38:00 - System Administrator (Additional comments)
+Please assist user with PDF creation. 
+
+","2020-11-30 16:38:00 - System Administrator (Additional comments)
+Please assist user with PDF creation. 
+
+",ACME North America,Phone,,,,,,Unable to edit any PDFs in Acrobat. All my PDFs are read only now. How do I unlock them?,,Overdue,,,,,2 - Medium,Closed,False,"324 South State Street, Salt Lake City,UT",False,Do Not Notify,INC0000038,2020-12-05 16:36:44,Fred Luddy,,,,4 - Low,,1.0,,,,2021-02-28 11:56:13,System Administrator,,,,3 - Low,my PDF docs are all locked from editing,UNKNOWN,Closed,,Incident,admin,2020-12-11 16:38:00,global,/,4717dfe5a9fe198100450448b2404c16,5,,admin,2021-02-28 11:57:55,INC0000038,,,,,3 - Low,,,,,,
+False,UNKNOWN,,,,,Howard Johnson,Software,21 Days 21 Hours 48 Minutes,,"1,892,887",91 Days 20 Hours 48 Minutes,"7,937,287",Joe Employee,Software,,,Closed/Resolved by Caller,"Closed before close notes were made mandatory
+		",2020-12-11 16:36:40,Don Goodliffe,,,,ACME North America,,,,,,,"When I try to print VISIO, my whole computer just freezes and stops working.",,Normal,,,,,1 - High,Closed,False,"400 Pryor Street Southwest, Atlanta,GA",False,Do Not Notify,INC0000006,2020-11-28 15:08:05,Guest,,,,1 - Critical,PRB0000008,2.0,,,,2021-02-28 11:56:12,System Administrator,,,,1 - High,Hangs when trying to print VISIO document,UNKNOWN,Closed,,Incident,employee,2019-06-27 13:42:01,global,/,8d6246c7c0a80164012fb063cecd4ace,14,,admin,2021-02-28 12:15:59,INC0000006,,,,,1 - High,,,,,,
+False,UNKNOWN,,,,,ITIL User,Hardware,19 Days 21 Hours 47 Minutes,,"1,720,053",83 Days 20 Hours 47 Minutes,"7,246,053",Joe Employee,Inquiry / Help,,,Closed/Resolved by Caller,"Closed before close notes were made mandatory
+		",2020-12-11 15:08:57,Don Goodliffe,,,,ACME North America,,,,,,,Where do I find toner for the HP 950C I have?,,Normal,,,,,1 - High,Closed,False,"Five Points 2009 Fairview RD, Raleigh, NC",False,Do Not Notify,INC0000008,2020-12-06 15:08:39,Joe Employee,,,,1 - Critical,,1.0,,,,2021-02-28 11:56:12,System Administrator,,,,1 - High,Printer in my office is out of toner,UNKNOWN,Closed,,Incident,employee,2019-06-27 13:43:58,global,/,8d641046c0a80164000bc7c0d3ed46a0,19,,admin,2021-02-28 12:16:02,INC0000008,,,,,1 - High,,,,,,
+False,UNKNOWN,,,,,Charlie Whitherspoon,Service Desk,21 Days 21 Hours 46 Minutes,,"1,892,781",91 Days 20 Hours 46 Minutes,"7,937,181",Fred Luddy,Network,,,Closed/Resolved by Caller,"Closed before close notes were made mandatory
+		",2020-11-29 15:10:06,Don Goodliffe,MailServerUS,,,,,,,,,,"User can't access email on mail.company.com.
+		",,Normal,,,,,1 - High,Closed,False,"2617 South Robinson Avenue, Oklahoma City,OK",False,Do Not Notify,INC0000001,2020-11-28 15:09:51,Joe Employee,,,,1 - Critical,PRB0000007,1.0,,,,2021-02-28 11:56:12,System Administrator,,,,1 - High,Can't read email,UNKNOWN,Closed,,Incident,pat,2019-06-30 11:24:13,global,/,9c573169c611228700193229fff72400,21,,admin,2021-02-28 12:16:07,INC0000001,,,,,1 - High,,,,,,
+False,UNKNOWN,,,,,Bud Richman,Service Desk,20 Days 6 Hours 27 Minutes,,"1,751,222",84 Days 21 Hours 27 Minutes,"7,334,822",Fred Luddy,Inquiry / Help,,,Solved (Work Around),"Walked him through settng his password, again.
+		",2020-12-06 16:40:24,Don Goodliffe,,,,,,,,,,,User forgot their email password.,,Moderate,,,,,1 - High,Closed,False,,False,Do Not Notify,INC0000004,2020-12-05 14:49:22,ITIL User,,,,1 - Critical,,1.0,,,,2021-02-28 12:16:24,System Administrator,,,,1 - High,Forgot email password,UNKNOWN,Closed,,Incident,pat,2019-06-30 15:34:12,global,/,9d3c1197c611228701cd1d94bc32d76d,9,,admin,2021-02-28 12:16:24,INC0000004,,,,,1 - High,,,,,,
+False,UNKNOWN,,Not Yet Requested,,,,,1 Day,,"86,400",3 Days 1 Hour 26 Minutes,"264,417",Beth Anglin,Hardware,,0.0,Solved (Work Around),As this is intermittent. Restarting the PC fixes this.,2021-05-25 15:28:52,Ron Kettering,*BETH-IBM,,,ACME North America,Walk-in,,,,,,,,Normal,,,,,3 - Low,Closed,False,,True,Do Not Notify,INC0000601,2021-02-24 01:42:59,System Administrator,,,,5 - Planning,PRB0000109,0.0,0.0,,,2021-02-27 03:09:56,Ron Kettering,,,,3 - Low,The USB port on my PC stopped working,UNKNOWN,Closed,,Incident,admin,2021-02-24 01:43:10,global,/,9e7f9864532023004247ddeeff7b121f,2,,system,2021-05-25 15:28:52,INC0000601,,,Proceed to Next Task,Cancel all future Tasks,3 - Low,,,,,,
+False,UNKNOWN,,Not Yet Requested,,,,,0 Seconds,,0,31 Minutes,"1,905",David Miller,Inquiry / Help,,0.0,Solved (Work Around),Reinstalled the app,2018-08-30 02:49:17,System Administrator,,,,,,,,,,,Having an issue with users trying to access the company portal app,,Normal,,,,,2 - Medium,Closed,False,,True,Do Not Notify,INC0009003,2018-08-30 02:17:32,System Administrator,,,,3 - Moderate,,0.0,0.0,,,2018-08-30 02:49:17,System Administrator,,,,3 - Low,Cannot sign into the company portal app,UNKNOWN,Closed,,Incident,admin,2018-08-30 02:18:00,global,/,9fffc328731823002728660c4cf6a742,4,,admin,2018-12-12 23:39:53,INC0009003,,,Proceed to Next Task,Cancel all future Tasks,2 - Medium,,,,,,
+False,UNKNOWN,,Not Yet Requested,,,,,0 Seconds,,0,5 Minutes,323,David Miller,Software,,0.0,Solved (Work Around),Reverted to a previous version.,2018-12-09 19:29:09,System Administrator,,,,,,,,,,,"While launching the defect tracking base URL, it is redirecting to an error page.",,Normal,,,,,3 - Low,Closed,False,,True,Do Not Notify,INC0009004,2018-09-01 06:13:30,System Administrator,,,,3 - Moderate,,0.0,0.0,,,2018-09-01 06:18:53,System Administrator,,,,3 - Low,Defect tracking tool is down.,UNKNOWN,Closed,,Incident,admin,2018-09-01 06:14:04,global,/,e329de99731423002728660c4cf6a73c,9,,system,2021-03-01 14:51:47,INC0009004,,,Proceed to Next Task,Cancel all future Tasks,1 - High,,,,,,
+False,2021-02-21 15:17:01,,,,,Bud Richman,Hardware,21 Days 15 Hours 14 Minutes,,"1,869,258",89 Days 7 Minutes,"7,690,046",Alejandro Mascall,Hardware,,,Closed/Resolved by Caller,Fixed,2021-03-01 14:51:47,System Administrator,ApplicationServerPeopleSoft,,"2021-02-21 13:17:01 - System Administrator (Work notes)
+test
+
+",ACME Germany,Email,,,,,,Watcher daemon detected that the CPU was 100% busy for more than 10 minutes,,Overdue,,,,,1 - High,Closed,False,"Bockenheimer Landstraße 223, Frankfurt",False,Do Not Notify,INC0000005,2020-11-24 15:06:52,System Administrator,,,,1 - Critical,,1.0,,,,2021-02-21 15:14:18,System Administrator,,,,1 - High,CPU load high for over 10 minutes,UNKNOWN,Closed,,Incident,admin,2019-07-04 08:14:01,global,/,e8e875b0c0a80164009dc852b4d677d5,15,,system,2021-03-01 14:51:47,INC0000005,,,,,1 - High,,,,"2021-02-21 13:17:01 - System Administrator (Work notes)
+test
+
+",,
+True,2021-02-28 13:50:33,,Not Yet Requested,,,Don Goodliffe,Software,5 Days,,"432,000",5 Days,"432,024",Fred Luddy,Software,,,,,2020-11-19 15:39:10,,Saints and Sinners Bingo,"2020-11-30 15:40:14 - System Administrator (Additional comments)
+I was unable to launch the Bingo game since the SP2 upgrade on
+			my machine
+		
+
+","2020-11-30 15:40:14 - System Administrator (Additional comments)
+I was unable to launch the Bingo game since the SP2 upgrade on
+			my machine
+		
+
+",ACME North America,Phone,,,,,,There was a software update two days ago and now my VPN doesn't work. Nothing loads when I click on the VPN client icon on my desktop.,,Normal,,,,,1 - High,In Progress,False,"324 South State Street, Salt Lake City,UT",False,Do Not Notify,INC0000015,2020-11-14 15:38:46,ITIL User,,,,1 - Critical,,2.0,,,,,,,,,3 - Low,I can't launch my VPN client since the last software update,2020-12-03 17:00:00,In Progress,,Incident,admin,2020-11-30 15:40:15,global,/,46e2fee9a9fe19810049b49dee0daf58,11,,admin,2021-02-28 11:50:33,INC0000015,,,,,1 - High,,,,,,
+True,2021-02-28 13:51:23,,Not Yet Requested,,,ITIL User,Hardware,11 Days 2 Hours 38 Minutes,,"959,937",16 Days,"1,382,417",Bow Ruggeri,Hardware,,,,,2020-11-25 15:40:40,System Administrator,,"2020-11-30 15:41:33 - System Administrator (Additional comments)
+turns out it was the sprinkler, not the rain. 
+
+2020-11-30 15:41:14 - System Administrator (Additional comments)
+please fix the roof.
+
+","2020-11-30 15:41:33 - System Administrator (Additional comments)
+turns out it was the sprinkler, not the rain. 
+
+2020-11-30 15:41:14 - System Administrator (Additional comments)
+please fix the roof.
+
+",ACME North America,Phone,,,,,,Seeing puddles of water on the floor of the server room. We've put buckets out to collect the water until this is fixed.,,Normal,,,,,1 - High,In Progress,False,"1050 Sunnyview Road Northeast, Salem,OR",False,Do Not Notify,INC0000016,2020-11-09 15:40:23,System Administrator,,,,1 - Critical,,2.0,,,,,,,,,3 - Low,Rain is leaking on main DNS Server,UNKNOWN,In Progress,,Incident,admin,2020-11-30 15:41:15,global,/,46e3e949a9fe19810069b824ba2c761a,7,,admin,2021-02-28 11:51:23,INC0000016,,,,,1 - High,,,,,,
+True,2015-11-24 09:47:36,,Not Yet Requested,,,Fred Luddy,Service Desk,,,,,,Joe Employee,Inquiry / Help,,,,,,,,"2015-11-14 18:55:49 - System Administrator (Additional comments)
+I got this
+
+","2015-11-16 09:15:18 - Rob Phillips (Work notes)
+Moved to lane 'Done' from 'To Do'
+
+2015-11-14 18:56:11 - System Administrator (Work notes)
+ghfghfgh
+
+2015-11-14 18:55:49 - System Administrator (Additional comments)
+I got this
+
+2015-08-24 20:14:50 - glide.maint (Work notes)
+Task reassigned due to employee termination
+
+",ACME North America,Phone,,,,,,I need to organize my inbox in my email program. However I can't create a sub-folder. I didn't seen an option to create a new folder when right clicking.,,Overdue,,,,Awaiting Caller,1 - High,On Hold,False,,False,Do Not Notify,INC0000017,2015-08-12 16:41:00,Don Goodliffe,,,,1 - Critical,,2.0,,,,,,,,,3 - Low,How do I create a sub-folder,2015-09-01 17:00:00,On Hold,,Incident,don.goodliffe,2015-08-25 16:41:54,global,/,46e482d9a9fe198101d3e3f3e2a14459,36,,admin,2015-11-24 07:47:36,INC0000017,,,,,1 - High,,,,"2015-11-16 09:15:18 - Rob Phillips (Work notes)
+Moved to lane 'Done' from 'To Do'
+
+2015-11-14 18:56:11 - System Administrator (Work notes)
+ghfghfgh
+
+2015-08-24 20:14:50 - glide.maint (Work notes)
+Task reassigned due to employee termination
+
+",,
+True,2021-02-28 13:37:49,,Not Yet Requested,,,ITIL User,,2 Hours 32 Minutes,,"9,173",1 Day 1 Minute,"86,495",Taylor Vreeland,,,,,,2020-11-16 15:44:21,,,"2020-11-30 15:44:32 - System Administrator (Additional comments)
+I need to be able to update the spreadsheet. I am unable to do
+			so since the SP2 upgrade.
+		
+
+","2020-11-30 15:44:32 - System Administrator (Additional comments)
+I need to be able to update the spreadsheet. I am unable to do
+			so since the SP2 upgrade.
+		
+
+",ACME North America,Phone,,,,,,Were the permissions on the sales forecast spreadsheet changed recently? They were editable last week but are read only today. Can someone update the permissions to make the spreadsheet editable again? We need to update the spreadsheet ASAP.,,Normal,,,,,1 - High,In Progress,False,"400 Pryor Street Southwest, Atlanta,GA",False,Do Not Notify,INC0000018,2020-11-15 15:42:46,System Administrator,,,,1 - Critical,,1.0,,,,,,,,,3 - Low,Sales forecast spreadsheet is READ ONLY,2020-11-15 23:42:46,In Progress,,Incident,admin,2020-11-30 15:42:56,global,/,46e57642a9fe1981000b96a5dca501ff,8,,admin,2021-02-28 11:37:49,INC0000018,,,,,1 - High,,,,,,
+True,UNKNOWN,,Not Yet Requested,,,Bud Richman,,3 Days 2 Hours 29 Minutes,,"268,184",6 Days,"518,458",Fred Luddy,Software,,,,,2020-11-23 15:45:37,,,"2020-11-30 15:45:51 - System Administrator (Additional comments)
+I got some patches last night and now can't log in to the Unix
+			box I need to for development.
+		
+
+","2020-11-30 15:45:51 - System Administrator (Additional comments)
+I got some patches last night and now can't log in to the Unix
+			box I need to for development.
+		
+
+",ACME North America,Phone,,,,,,I downloaded and installed 64-bit Windows 7 virtual machine and I can't get it to launch. I'm not sure if I need 64-bit or 32-bit.,,Moderate,,,,,2 - Medium,In Progress,False,"Five Points 2009 Fairview RD, Raleigh, NC",False,Do Not Notify,INC0000019,2020-11-17 15:44:39,System Administrator,,,,2 - High,PRB0000001,1.0,,,,,,,,,3 - Low,Can't launch 64-bit Windows 7 virtual machine,2020-11-18 15:44:39,In Progress,,Incident,admin,2020-11-30 15:45:51,global,/,46e8219ba9fe1981013806b6e04fed06,10,,admin,2021-02-28 11:46:13,INC0000019,,,,,1 - High,,,,,,
+True,UNKNOWN,,Not Yet Requested,,,ITIL User,,,,,,,Fred Luddy,Inquiry / Help,,,,,,,,,,,Phone,,,,,,I lost my work-issued iPhone 7 while traveling last week and need a replacement device. I've erased the phone remotely and have called my carrier to shut off service to it.,,Normal,,,,,3 - Low,In Progress,False,"400 Pryor Street Southwest, Atlanta,GA",False,Do Not Notify,INC0000020,2020-11-27 15:51:35,David Loo,,,,5 - Planning,PRB0000003,1.0,,,,,,,,,3 - Low,"I need a replacement iPhone, please",UNKNOWN,In Progress,,Incident,david.loo,2020-11-30 15:51:54,global,/,46edaa6aa9fe198101b9d14ced16619f,6,,admin,2021-02-28 11:45:32,INC0000020,,,,,3 - Low,,,,,,
+True,UNKNOWN,,Not Yet Requested,,,ITIL User,,14 Days 1 Minute,,"1,209,684",18 Days 1 Minute,"1,555,284",Don Goodliffe,Hardware,,,,,2020-11-25 15:55:10,David Loo,IBM-T42-DLG,,,ACME North America,Phone,,,,,,I have a project involving video editing to complete. I've installed the editing software and the memory in my laptop is insufficient to run it effectively.,,Normal,,,,,1 - High,In Progress,False,"324 South State Street, Salt Lake City,UT",False,Do Not Notify,INC0000025,2020-11-07 15:53:46,David Loo,,,,1 - Critical,,,,,,,,,,,3 - Low,Need to add more memory to laptop,UNKNOWN,In Progress,,Incident,david.loo,2020-11-30 15:55:07,global,/,46f09e75a9fe198100f4ffd8d366d17b,6,,admin,2021-02-28 11:44:35,INC0000025,,,,,1 - High,,,,,,
+True,2021-02-28 13:44:05,,Not Yet Requested,,,ITIL User,,1 Day 2 Hours 4 Minutes,,"93,885",4 Days 3 Minutes,"345,805",Fred Luddy,Software,,,,,2020-11-30 15:59:20,,Windows XP Hotfix (SP2) Q817606,,,ACME North America,Phone,,,,,,The hotfix was installed on my PC and now some of my applications have stopped working. Can I roll back to the previous version?,,Normal,,,,,1 - High,In Progress,False,"Five Points 2009 Fairview RD, Raleigh, NC",False,Do Not Notify,INC0000027,2020-11-26 15:55:55,David Loo,,,,2 - High,,1.0,,,,,,,,,3 - Low,Please remove the latest hotfix from my PC,UNKNOWN,In Progress,,Incident,david.loo,2020-11-30 15:59:52,global,/,46f4f4dfa9fe198100063e60278f76ec,10,,admin,2021-02-28 11:52:24,INC0000027,,,,,2 - Medium,,,,,,
+True,2021-02-19 11:54:01,,Not Yet Requested,,,Don Goodliffe,Service Desk,,,,,,Charlie Whitherspoon,Inquiry / Help,,,,,,,WeatherBug,,,ACME North America,Phone,,,,,,WeatherBug icon has disappeared from my desktop. Unable to get my weather report.,,Overdue,,,,,3 - Low,In Progress,False,Johannesburg,False,Do Not Notify,INC0000029,2020-11-28 16:00:44,David Loo,,,,5 - Planning,,2.0,,,,,,,,,3 - Low,I can't get my weather report,2020-11-29 00:00:44,In Progress,,Incident,david.loo,2020-11-30 16:01:31,global,/,46f67787a9fe198101e06dfcf3a78e99,5,,admin,2021-02-28 11:50:57,INC0000029,,,,,3 - Low,,,,,,
+True,2021-02-28 13:44:20,,Not Yet Requested,,,David Loo,,11 Minutes,,719,11 Minutes,719,Joe Employee,Inquiry / Help,,,,,2020-11-02 16:30:02,Don Goodliffe,,"2021-02-21 15:21:05 - System Administrator (Additional comments)
+Added an attachment
+
+2020-11-30 16:19:30 - Don Goodliffe (Additional comments)
+Server out of memory
+
+","2021-02-21 15:21:05 - System Administrator (Additional comments)
+Added an attachment
+
+2021-02-21 09:15:14 - Rob Phillips (Work notes)
+Moved to lane 'Doing' from 'To Do'
+
+2020-11-30 16:19:30 - Don Goodliffe (Additional comments)
+Server out of memory
+
+",ACME North America,Phone,,,,,,"Need to adjust layout of UI, add additional fields, and remove a few buttons. We are missing some critical fields that need to get added immediately.",,Overdue,,,,,1 - High,In Progress,False,Hamburg,False,Do Not Notify,INC0000031,2020-11-02 16:18:03,Don Goodliffe,,,,1 - Critical,,,,,,,,,,,3 - Low,Need help with Remedy. Can we configure UI?,2020-11-03 00:18:03,In Progress,,Incident,don.goodliffe,2020-11-30 16:18:48,global,/,47064b68a9fe19810186793eefffc9b7,15,,admin,2021-02-28 11:44:20,INC0000031,,,,,1 - High,,,,"2021-02-21 09:15:14 - Rob Phillips (Work notes)
+Moved to lane 'Doing' from 'To Do'
+
+",,
+True,2021-02-28 13:50:55,,Not Yet Requested,,,Howard Johnson,Service Desk,43 Seconds,,43,43 Seconds,43,Sam Sorokin,Inquiry / Help,,,,,2020-11-30 16:35:39,David Loo,EFOWEB,,,ACME North America,Phone,,,,,,Need to place order for a new machine. Will need help with installation also.,,Normal,,,,,1 - High,In Progress,False,"1050 Sunnyview Road Northeast, Salem,OR",False,Do Not Notify,INC0000037,2020-11-30 16:34:56,David Loo,,,,3 - Moderate,,1.0,,,,,,,,,3 - Low,Request for a new service,UNKNOWN,In Progress,,Incident,david.loo,2020-11-30 16:35:36,global,/,4715ab62a9fe1981018c3efb96143495,8,,admin,2021-02-28 11:51:40,INC0000037,,,,,3 - Low,,,,,,
+True,UNKNOWN,,Not Yet Requested,,,,Network,,,,,,Bud Richman,Network,,,,,,,MailServerUS,"2020-11-30 16:42:29 - System Administrator (Additional comments)
+Routing from San Diego to the Oregon mail server appears to be
+			getting packet lose!
+		
+
+","2020-11-30 16:42:29 - System Administrator (Additional comments)
+Routing from San Diego to the Oregon mail server appears to be
+			getting packet lose!
+		
+
+",ACME North America,Phone,,,,,,Unable to access Oregon mail server. Is it down?,,Normal,,,,,3 - Low,New,False,"1050 Sunnyview Road Northeast, Salem,OR",False,Do Not Notify,INC0000039,2020-11-30 16:41:01,Bud Richman,,,,5 - Planning,,,,,,,,,,,3 - Low,Trouble getting to Oregon mail server,2020-12-21 16:41:01,New,,Incident,admin,2020-11-30 16:42:29,global,/,471bfbc7a9fe198101e77a3e10e5d47f,3,,admin,2021-02-28 11:39:15,INC0000039,,,,,3 - Low,,,,,,
+True,UNKNOWN,,Not Yet Requested,,,ITIL User,,,,,,,Bud Richman,Inquiry / Help,,,,,,,WEBSERVER,"2021-02-21 15:12:43 - System Administrator (Additional comments)
+Added an attachment
+
+2020-11-30 16:43:54 - System Administrator (Additional comments)
+JavaScript error (line 202) on the home page. Not sure what is
+			going on, does not happen on my Windows machine!
+		
+
+","2021-02-21 15:12:43 - System Administrator (Additional comments)
+Added an attachment
+
+2020-11-30 16:43:54 - System Administrator (Additional comments)
+JavaScript error (line 202) on the home page. Not sure what is
+			going on, does not happen on my Windows machine!
+		
+
+",ACME North America,Phone,,,,,,Seeing JavaScript error message on hiring page on Explorer and Firefox.,,Normal,,,,Awaiting Caller,2 - Medium,On Hold,False,"1050 Sunnyview Road Northeast, Salem,OR",False,Do Not Notify,INC0000040,2020-11-30 16:42:45,System Administrator,,,,3 - Moderate,,1.0,,,,,,,,,3 - Low,JavaScript error on hiring page of corporate website,UNKNOWN,On Hold,,Incident,admin,2020-11-30 16:43:54,global,/,471d4732a9fe198100affbf655e59172,5,,admin,2021-02-28 11:46:30,INC0000040,,,,,2 - Medium,,,,,,
+True,UNKNOWN,,Not Yet Requested,,,ITIL User,,,,,,,Bow Ruggeri,Hardware,,,,,,,,"2020-11-30 16:45:27 - bow (Additional comments)
+When someone tries to call my extension, it will not ring.
+		
+
+","2020-11-30 16:45:27 - bow (Additional comments)
+When someone tries to call my extension, it will not ring.
+		
+
+",ACME North America,Phone,,,,,,Unable to dial out or receive calls. Phone is plugged in but there's no dial tone.,,Normal,,,,,1 - High,In Progress,False,,False,Do Not Notify,INC0000041,2020-11-30 16:44:53,Bow Ruggeri,,,,3 - Moderate,,1.0,,,,,,,,,3 - Low,My desk phone does not work,UNKNOWN,In Progress,,Incident,bow,2020-11-30 16:45:27,global,/,471eb058a9fe198100f89592e1ea93d3,5,,admin,2021-02-28 11:52:15,INC0000041,,,,,3 - Low,,,,,,
+True,UNKNOWN,,Not Yet Requested,,,Fred Luddy,,,,,,,Joe Employee,,,,,,,,,,,ACME North America,Phone,,,,,,"Tried to connect to SAP and all I see is a ""Connecting…."" message but nothing else happens.",,Normal,,,,,1 - High,In Progress,False,,False,Do Not Notify,INC0000044,2020-11-30 16:47:08,Joe Employee,,,,2 - High,,1.0,,,,,,,,,3 - Low,Can't log into SAP from my laptop today,UNKNOWN,In Progress,,Incident,employee,2020-11-30 16:47:11,global,/,47204688a9fe1981011a20af100f381a,8,,admin,2021-02-28 11:52:03,INC0000044,,,,,2 - Medium,,,,,,
+True,UNKNOWN,,Not Yet Requested,,,,,,,,,,survey user,Inquiry / Help,,0.0,,,,,,,,,,,,,,,,,Normal,,,,,3 - Low,New,False,,True,Do Not Notify,INC0010112,2019-07-29 11:48:43,System Administrator,,,,5 - Planning,,0.0,0.0,,,,,,,,3 - Low,Assessment :  ATF Assessor,UNKNOWN,New,,Incident,admin,2019-07-29 11:49:28,global,/,552c48888c033300964f4932b03eb092,0,,admin,2019-07-29 11:49:28,INC0010112,,,Proceed to Next Task,Cancel all future Tasks,3 - Low,,,,,,
+True,UNKNOWN,,Not Yet Requested,,,,,,,,,,David Miller,Inquiry / Help,,0.0,,,,,,,"2018-12-12 23:30:24 - System Administrator (Work notes)
+Changed the priority of the Incident
+
+",,,,,,,,Unable to access the shared folder. Please provide access.,,Normal,,,,,3 - Low,New,False,,True,Do Not Notify,INC0009009,2018-08-30 01:06:16,System Administrator,,,,4 - Low,,0.0,0.0,,,,,,,,3 - Low,Unable to access the shared folder.,UNKNOWN,New,,Incident,admin,2018-08-30 01:06:52,global,/,57af7aec73d423002728660c4cf6a71c,4,,admin,2018-12-12 23:30:24,INC0009009,,,Proceed to Next Task,Cancel all future Tasks,2 - Medium,,,,"2018-12-12 23:30:24 - System Administrator (Work notes)
+Changed the priority of the Incident
+
+",,
+True,UNKNOWN,,Not Yet Requested,,,,,,,,,,Bertie Luby,Inquiry / Help,,0.0,,,,,,,,,,,,,,,Wifi connection seems slow. Webpages are taking a very long time to load.,,Normal,,,,,3 - Low,New,False,,True,Do Not Notify,INC0000057,2016-08-10 09:14:59,System Administrator,,,,5 - Planning,,0.0,0.0,,,,,,,,3 - Low,Performance problems with wifi,UNKNOWN,New,,Incident,admin,2016-08-10 09:14:59,global,/,78271e1347c12200e0ef563dbb9a7109,0,,admin,2016-08-10 09:14:59,INC0000057,,,Proceed to Next Task,Cancel all future Tasks,3 - Low,,,,,,
+True,UNKNOWN,,Not Yet Requested,,,,,,,,,,Rick Berzle,Inquiry / Help,,0.0,,,,,,"2016-08-10 09:14:29 - System Administrator (Additional comments)
+test
+
+","2016-08-10 09:14:29 - System Administrator (Additional comments)
+test
+
+",,Self-service,,,,,,I can access my personal folder but can't access my team's folder on our file share.,,Normal,,,,,2 - Medium,New,False,,True,Do Not Notify,INC0000059,2016-08-10 09:14:29,System Administrator,,,,3 - Moderate,,0.0,0.0,,,,,,,,3 - Low,Unable to access team file share,UNKNOWN,New,,Incident,admin,2016-08-10 09:14:29,global,/,85071a1347c12200e0ef563dbb9a71c1,0,,admin,2016-08-10 09:14:29,INC0000059,,,Proceed to Next Task,Cancel all future Tasks,2 - Medium,,,,,,
+True,2015-11-24 09:47:36,,,,,David Loo,,,,,,,Joe Employee,Database,,,,,,,,"2015-11-16 15:17:50 - System Administrator (Additional comments)
+Added an attachment
+
+","2015-11-16 15:17:50 - System Administrator (Additional comments)
+Added an attachment
+
+2015-08-24 20:14:50 - glide.maint (Work notes)
+Task reassigned due to employee termination
+
+",ACME North America,,,,,,,"I have to analyze all US data in the SFA system, but am unable to get to see the data from the west coast.",,Overdue,,,,Awaiting Caller,1 - High,On Hold,False,San Diego,False,Do Not Notify,INC0000007,2015-08-12 16:08:24,Joe Employee,,,,1 - Critical,,1.0,,,,,,,,,1 - High,Need access to sales DB for the West,2015-09-01 17:00:00,On Hold,,Incident,employee,2014-03-10 13:43:10,global,/,8d6353eac0a8016400d8a125ca14fc1f,50,,admin,2015-11-24 07:47:36,INC0000007,,,,,1 - High,,,,"2015-08-24 20:14:50 - glide.maint (Work notes)
+Task reassigned due to employee termination
+
+",,
+True,UNKNOWN,,Not Yet Requested,,,,,,,,,,Bow Ruggeri,Inquiry / Help,,0.0,,,,,,,,,,,,,,,Taking a really long time to send emails. Last email took almost a minute for sending to complete and there wasn't even an attachment.,,Normal,,,,,3 - Low,New,False,,True,Do Not Notify,INC0000058,2016-08-10 09:37:45,System Administrator,,,,5 - Planning,,0.0,0.0,,,,,,,,3 - Low,Performance problems with email,UNKNOWN,New,,Incident,admin,2016-08-10 09:37:45,global,/,965c9e5347c12200e0ef563dbb9a7156,0,,admin,2016-08-10 09:37:45,INC0000058,,,Proceed to Next Task,Cancel all future Tasks,3 - Low,,,,,,
+True,2021-02-28 13:51:11,,,,,Howard Johnson,Network,,,,,,Fred Luddy,Network,,,,,,,FileServerFloor2,"2021-02-21 15:13:23 - System Administrator (Additional comments)
+Added an attachment
+
+","2021-02-21 15:13:23 - System Administrator (Additional comments)
+Added an attachment
+
+",,,,,,,,User can't get to any of his files on the file server.,,Overdue,,,,Awaiting Vendor,1 - High,On Hold,False,"1050 Sunnyview Road Northeast, Salem,OR",False,Do Not Notify,INC0000002,2020-11-22 15:07:12,Joe Employee,,,,1 - Critical,PRB0000007,1.0,,,,,,,,,1 - High,Network file shares access issue,UNKNOWN,On Hold,,Incident,pat,2019-06-19 15:30:06,global,/,9d385017c611228701d22104cc95c371,17,,admin,2021-02-28 11:51:11,INC0000002,,,,,1 - High,,,,,,
+True,UNKNOWN,,Not Yet Requested,,,,,,,,,,Problem CoordinatorATF,Inquiry / Help,,0.0,,,,,,,,,,,,,,,Unable to access the personal details section in payroll portal,,Normal,,,,Awaiting Problem,3 - Low,On Hold,False,,True,Do Not Notify,INC0001990,2020-06-07 09:02:25,System Administrator,,,,5 - Planning,PRB0001001,0.0,0.0,,,,,,,,3 - Low,Unable to access the personal details section in payroll portal,UNKNOWN,On Hold,,Incident,admin,2020-06-07 09:03:43,global,/,a2496c05731110107418660c4cf6a711,2,,admin,2020-06-07 09:04:34,INC0001990,,,Proceed to Next Task,Cancel all future Tasks,3 - Low,,,,,,
+True,UNKNOWN,,Not Yet Requested,,,,,,,,,,David Miller,Inquiry / Help,,1.0,,,,,,,"2018-12-12 23:32:38 - System Administrator (Work notes)
+Changed the priority of the Incident
+
+",,,,,,,,I am not able to edit a wiki page.,,Normal,,,,,2 - Medium,New,False,,True,Do Not Notify,INC0009001,2018-09-11 20:56:26,System Administrator,,,,3 - Moderate,,0.0,0.0,,,,,,,,3 - Low,Unable to post content on a Wiki page,UNKNOWN,New,,Incident,admin,2018-09-11 20:57:01,global,/,a623cdb073a023002728660c4cf6a768,6,,admin,2018-12-12 23:32:42,INC0009001,,,Proceed to Next Task,Cancel all future Tasks,2 - Medium,,,,"2018-12-12 23:32:38 - System Administrator (Work notes)
+Changed the priority of the Incident
+
+",,
+True,UNKNOWN,,Not Yet Requested,,,,,,,,,,System Administrator,Inquiry / Help,,0.0,,,,,,,,,,,,,,,,,Normal,,,,,3 - Low,New,False,,True,Do Not Notify,INC0010111,2019-07-22 14:04:57,System Administrator,,,,5 - Planning,,0.0,0.0,,,,,,,,3 - Low,ATF : Test1,UNKNOWN,New,,Incident,admin,2019-07-22 14:05:17,global,/,a83820b58f723300e7e16c7827bdeed2,1,,admin,2019-07-22 14:05:48,INC0010111,,,Proceed to Next Task,Cancel all future Tasks,3 - Low,,,,,,
+True,UNKNOWN,,Not Yet Requested,,,Beth Anglin,Software,,,,,,Joe Employee,Inquiry / Help,,,,,,,*JEMPLOYEE-IBM,"2021-02-07 13:18:39 - beth (Additional comments)
+Will deliver new token tomorrow when I'm in the San Diego
+			office.
+		
+
+2021-02-07 13:06:35 - ITIL User (Additional comments)
+Spoke to customer, appears to need a new VPN token.
+
+2021-02-07 12:53:47 - Joe Employee (Additional comments)
+Can't connect to Email from home. Webmail appears to be down.
+		
+
+","2021-02-07 13:18:39 - beth (Additional comments)
+Will deliver new token tomorrow when I'm in the San Diego
+			office.
+		
+
+2021-02-07 13:06:35 - ITIL User (Work notes)
+Be sure to record VPN ID number in the CMDB.
+
+2021-02-07 13:06:35 - ITIL User (Additional comments)
+Spoke to customer, appears to need a new VPN token.
+
+2021-02-07 12:53:47 - Joe Employee (Additional comments)
+Can't connect to Email from home. Webmail appears to be down.
+		
+
+",ACME North America,Phone,,,,,,Can't connect to email from my laptop.,,Normal,,,,,2 - Medium,In Progress,False,San Diego,False,Do Not Notify,INC0000047,2021-02-07 12:53:18,Joe Employee,,,,3 - Moderate,,2.0,,,,,,,,,3 - Low,Issue with email,2021-02-28 12:53:18,In Progress,Email,Incident,employee,2021-02-07 12:53:47,global,/,a9a16740c61122760004fe9095b7ddca,6,,admin,2021-02-28 11:51:52,INC0000047,,,,,2 - Medium,,,,"2021-02-07 13:06:35 - ITIL User (Work notes)
+Be sure to record VPN ID number in the CMDB.
+
+",,
+True,UNKNOWN,,Not Yet Requested,,,,Software,,,,,,Bud Richman,Software,,,,,,,Sales Force Automation,"2021-02-07 14:05:30 - System Administrator (Additional comments)
+System seems to be lagging and can't login
+
+","2021-02-07 14:05:30 - System Administrator (Additional comments)
+System seems to be lagging and can't login
+
+",,Phone,,,,,,Unable to login to SFA even though login credentials are correct.,,Normal,,,,,1 - High,New,False,"324 South State Street, Salt Lake City,UT",False,Do Not Notify,INC0000046,2021-02-07 14:04:15,Bud Richman,,,,3 - Moderate,PRB0000006,1.0,,,,,,,,,3 - Low,Can't access SFA software,2021-02-16 14:04:15,New,,Incident,admin,2021-02-06 14:05:30,global,/,a9e30c7dc61122760116894de7bcc7bd,4,,glide.maint,2021-02-06 14:37:27,INC0000046,,,,,3 - Low,,,,,,
+True,UNKNOWN,,Not Yet Requested,,,ITIL User,,,,,,,Luke Wilson,,,,,,,,Sales Force Automation,"2015-11-16 15:11:27 - System Administrator (Additional comments)
+Added an attachment
+
+2015-11-02 14:06:42 - System Administrator (Additional comments)
+Everything is running really SLOW!
+
+","2015-11-16 15:11:27 - System Administrator (Additional comments)
+Added an attachment
+
+2015-11-02 14:06:42 - System Administrator (Additional comments)
+Everything is running really SLOW!
+
+",ACME North America,Phone,,,,,,Pages are taking more time to load than normal.,,High,,,,(2),2 - Medium,On Hold,False,San Diego,False,Do Not Notify,INC0000048,2015-11-02 14:05:36,Luke Wilson,,,,4 - Low,PRB0000006,1.0,,,,,,,,,3 - Low,Having problems with Sales Tools performance,2015-11-03 14:05:36,On Hold,,Incident,admin,2015-11-02 14:06:42,global,/,a9e428cac61122760075710592216c58,12,,admin,2015-11-24 07:46:20,INC0000048,,,,,3 - Low,,,,,,
+True,2021-02-28 13:40:45,,Not Yet Requested,,,Don Goodliffe,Software,,,,,,Joe Employee,Software,,,,,,,SAP Controlling,"2021-02-06 20:38:43 - ITIL User (Additional comments)
+User can't access SAP Controlling application
+
+","2021-02-06 20:38:43 - ITIL User (Work notes)
+I validated that the user can't access this SAP module. Could
+			be an outage.
+		
+
+2021-02-06 20:38:43 - ITIL User (Additional comments)
+User can't access SAP Controlling application
+
+",ACME North America,Phone,,,,,,Was able to access SAP Controlling application last week but doesn't seem to be working as of today. Is there an outage?,,Overdue,,,,,1 - High,In Progress,False,San Diego,True,Do Not Notify,INC0000051,2021-02-07 12:48:32,ITIL User,,,,1 - Critical,PRB0000011,0.0,,,,,,,,,3 - Low,Manager can't access SAP Controlling application,2021-02-07 04:36:33,In Progress,,Incident,itil,2021-02-07 12:48:32,global,/,d7158da0c0a8016700eef46c8d1f3661,5,,admin,2021-02-28 11:40:45,INC0000051,,,Proceed to Next Task,Cancel all future Tasks,1 - High,,,,"2021-02-06 20:38:43 - ITIL User (Work notes)
+I validated that the user can't access this SAP module. Could
+			be an outage.
+		
+
+",,
+True,2021-02-21 15:50:20,,Not Yet Requested,,,Fred Luddy,Software,,,,,,Bud Richman,Software,,,,,,,SAP Financial Accounting,"2021-02-14 10:16:12 - System Administrator (Additional comments)
+you
+
+2021-02-14 10:15:58 - System Administrator (Additional comments)
+hey
+
+2021-02-06 20:42:08 - ITIL User (Additional comments)
+SAP Financial Accounting application appears to be down
+
+","2021-02-21 09:50:20 - Rob Phillips (Work notes)
+I got this
+
+2021-02-19 07:59:47 - System Administrator (Work notes)
+This machine is broken
+
+2021-02-14 10:16:12 - System Administrator (Additional comments)
+you
+
+2021-02-14 10:15:58 - System Administrator (Additional comments)
+hey
+
+2021-02-06 20:42:09 - ITIL User (Work notes)
+it appears that this SAP application is down or very slow.
+		
+
+2021-02-06 20:42:08 - ITIL User (Additional comments)
+SAP Financial Accounting application appears to be down
+
+",ACME North America,Phone,,,,,,Main menu doesn't load when I open the SAP Financial Accounting application.,,Overdue,,,,,1 - High,In Progress,False,"261 North Highway 101, Solana Beach,CA",True,Do Not Notify,INC0000052,2021-02-07 12:48:40,ITIL User,,,,1 - Critical,PRB0000011,0.0,,,,,,,,,3 - Low,SAP Financial Accounting application appears to be down,2021-02-07 04:40:39,In Progress,,Incident,itil,2021-02-07 12:48:40,global,/,d7195138c0a8016700fd68449cfcd484,94,,system,2021-02-21 13:50:24,INC0000052,,,Proceed to Next Task,Cancel all future Tasks,1 - High,,,,"2021-02-21 09:50:20 - Rob Phillips (Work notes)
+I got this
+
+2021-02-19 07:59:47 - System Administrator (Work notes)
+This machine is broken
+
+2021-02-06 20:42:09 - ITIL User (Work notes)
+it appears that this SAP application is down or very slow.
+		
+
+",,
+True,2021-02-28 13:42:25,,Not Yet Requested,,,Beth Anglin,Software,,,,,,Margaret Grey,Inquiry / Help,,,,,,,SAP Human Resources,"2021-02-19 08:15:50 - System Administrator (Additional comments)
+hello world
+
+2021-02-06 20:45:04 - ITIL User (Additional comments)
+The SAP Human Resources application is not accessible
+
+","2021-02-19 08:15:50 - System Administrator (Additional comments)
+hello world
+
+2021-02-06 20:45:04 - ITIL User (Work notes)
+I cannot access this application so we may have an outage
+		
+
+2021-02-06 20:45:04 - ITIL User (Additional comments)
+The SAP Human Resources application is not accessible
+
+",ACME North America,Phone,,,,,,"I've been trying to access the SAP HR application for the last few hours. Each time I go into the application, nothing loads.",,Overdue,,,,,1 - High,In Progress,False,"261 North Highway 101, Solana Beach,CA",True,Do Not Notify,INC0000053,2021-02-07 12:48:46,ITIL User,,,,1 - Critical,PRB0000011,0.0,,,,,,,,,3 - Low,The SAP HR application is not accessible,2021-02-07 04:42:45,In Progress,,Incident,itil,2021-02-07 12:48:46,global,/,d71b3b41c0a8016700a8ef040791e72a,32,,admin,2021-02-28 11:42:25,INC0000053,,,Proceed to Next Task,Cancel all future Tasks,1 - High,,,,"2021-02-06 20:45:04 - ITIL User (Work notes)
+I cannot access this application so we may have an outage
+		
+
+",,
+True,2015-11-24 09:47:36,,Not Yet Requested,,,,Service Desk,,,,,,Christen Mitchell,Software,,,,,,,SAP Materials Management,"2015-11-16 15:05:45 - System Administrator (Additional comments)
+Added an attachment
+
+2015-11-16 15:00:40 - System Administrator (Additional comments)
+Added an attachment
+
+2015-11-09 09:58:57 - System Administrator (Additional comments)
+Added an attachment
+
+2015-11-09 09:58:47 - System Administrator (Additional comments)
+Its totaly broken
+
+2015-11-01 20:47:17 - ITIL User (Additional comments)
+SAP Materials Management is slow or there is an outage
+
+","2015-11-16 15:05:45 - System Administrator (Additional comments)
+Added an attachment
+
+2015-11-16 15:00:40 - System Administrator (Additional comments)
+Added an attachment
+
+2015-11-09 09:58:57 - System Administrator (Additional comments)
+Added an attachment
+
+2015-11-09 09:58:47 - System Administrator (Additional comments)
+Its totaly broken
+
+2015-11-01 20:47:17 - ITIL User (Work notes)
+I can't login to the application. Need to do some further research.
+
+2015-11-01 20:47:17 - ITIL User (Additional comments)
+SAP Materials Management is slow or there is an outage
+
+",ACME North America,Phone,,,,,,Nothing loads in the application. Is there an outage?,,Overdue,,,,Awaiting Caller,1 - High,On Hold,False,"153 South Sierra Avenue, Solana Beach,CA",True,Do Not Notify,INC0000054,2015-11-02 12:49:08,ITIL User,,,,1 - Critical,PRB0000011,0.0,,,,,,,,,3 - Low,SAP Materials Management is slow or there is an outage,2015-11-02 04:45:24,On Hold,,Incident,itil,2015-11-02 12:49:08,global,/,d71da88ac0a801670061eabfe4b28f77,95,,admin,2015-11-24 07:47:36,INC0000054,,,Proceed to Next Task,Cancel all future Tasks,1 - High,,,,"2015-11-01 20:47:17 - ITIL User (Work notes)
+I can't login to the application. Need to do some further research.
+
+",,
+True,2021-02-21 17:08:31,,Not Yet Requested,,,Beth Anglin,Service Desk,,,,,,Carol Coughlin,,,,,,,,SAP Sales and Distribution,"2021-02-21 15:08:31 - System Administrator (Additional comments)
+Added an attachment
+
+2021-02-19 09:15:17 - System Administrator (Additional comments)
+gjhgjhgjhg
+
+2021-02-06 20:49:39 - ITIL User (Additional comments)
+SAP Sales app is not accessible
+
+","2021-02-21 15:08:31 - System Administrator (Additional comments)
+Added an attachment
+
+2021-02-19 09:15:17 - System Administrator (Additional comments)
+gjhgjhgjhg
+
+2021-02-06 20:49:39 - ITIL User (Work notes)
+Researching this. I think there is an outage.
+
+2021-02-06 20:49:39 - ITIL User (Additional comments)
+SAP Sales app is not accessible
+
+",ACME North America,Phone,,,,,,Unable to get into the SAP Sales app. It was working yesterday.,,Overdue,,,,,1 - High,In Progress,False,,True,Do Not Notify,INC0000055,2021-02-07 20:47:23,ITIL User,,,,1 - Critical,PRB0000011,0.0,,,,,,,,,3 - Low,SAP Sales app is not accessible,2021-02-07 04:47:23,In Progress,,Incident,itil,2021-02-07 20:49:39,global,/,d71f7935c0a8016700802b64c67c11c6,10,,admin,2021-02-21 15:08:31,INC0000055,,,Proceed to Next Task,Cancel all future Tasks,1 - High,,,,"2021-02-06 20:49:39 - ITIL User (Work notes)
+Researching this. I think there is an outage.
+
+",,
+True,2021-02-28 13:51:14,,,,,Beth Anglin,Network,,,,,,Joe Employee,Network,,,,,,,,,,ACME North America,,,,,,,I just moved from floor 2 to floor 3 and my laptop cannot connect to any wireless network.,,Normal,,,,,1 - High,In Progress,False,"324 South State Street, Salt Lake City,UT",False,Do Not Notify,INC0000003,2020-11-29 15:07:30,ITIL User,,,,1 - Critical,,2.0,,,,,,,,,1 - High,Wireless access is down in my area,UNKNOWN,In Progress,,Incident,admin,2019-07-04 07:41:46,global,/,e8caedcbc0a80164017df472f39eaed1,12,,admin,2021-02-28 11:51:14,INC0000003,,,,,1 - High,,,,,,
+True,2018-12-13 01:18:55,,Not Yet Requested,,,,,,,,,,David Miller,Software,,0.0,,,,,,,"2018-12-12 23:18:42 - System Administrator (Work notes)
+updated the priority to high based on the criticality of the Incident.
+
+",,,,,,,,Unable to send or receive emails.,,Normal,,,,,1 - High,New,False,,True,Do Not Notify,INC0009005,2018-08-31 21:35:21,System Administrator,,,,1 - Critical,,0.0,0.0,,,,,,,,3 - Low,Email server is down.,UNKNOWN,New,Email,Incident,admin,2018-08-31 21:35:45,global,/,ed92e8d173d023002728660c4cf6a7bc,3,,admin,2018-12-12 23:18:55,INC0009005,,,Proceed to Next Task,Cancel all future Tasks,1 - High,,,,"2018-12-12 23:18:42 - System Administrator (Work notes)
+updated the priority to high based on the criticality of the Incident.
+
+",,
+True,2021-02-21 15:37:25,,Not Yet Requested,,,Don Goodliffe,Hardware,,,,,,Beth Anglin,Network,,,,,,,nyc rac nas200,"2021-02-19 09:56:33 - System Administrator (Additional comments)
+Send in the llamas
+
+2021-02-19 09:56:23 - System Administrator (Additional comments)
+Really, really bad
+
+2021-02-19 09:56:10 - System Administrator (Additional comments)
+This is bad
+
+2021-02-07 10:05:40 - glide.maint (Additional comments)
+Network storage unavailable. Customer has no access to any of
+			her data and is freaking out!
+		
+
+","2021-02-21 09:15:17 - Rob Phillips (Work notes)
+Moved to lane 'Done' from 'To Do'
+
+2021-02-19 09:56:33 - System Administrator (Additional comments)
+Send in the llamas
+
+2021-02-19 09:56:23 - System Administrator (Additional comments)
+Really, really bad
+
+2021-02-19 09:56:10 - System Administrator (Additional comments)
+This is bad
+
+2021-02-07 10:05:40 - glide.maint (Additional comments)
+Network storage unavailable. Customer has no access to any of
+			her data and is freaking out!
+		
+
+",ACME North America,Phone,,,,,,"Receiving error message with ""network path not found.""",,Overdue,,,,,2 - Medium,In Progress,False,"450 Lexington Avenue, New York,NY",True,Do Not Notify,INC0000049,2021-02-07 13:56:37,,,,,2 - High,,0.0,,,,,,,,,3 - Low,Network storage unavailable,2022-10-10 22:56:37,In Progress,,Incident,glide.maint,2021-02-07 10:05:40,global,/,ef4225a40a0a0b5700d0b8a790747812,37,,admin,2021-02-28 11:52:34,INC0000049,,,Proceed to Next Task,Cancel all future Tasks,1 - High,,,,"2021-02-21 09:15:17 - Rob Phillips (Work notes)
+Moved to lane 'Done' from 'To Do'
+
+",,
+True,2021-02-28 13:37:05,,Not Yet Requested,,,Beth Anglin,Hardware,,,,,,Jerrod Bennett,Hardware,,,,,,,EXCH-SD-05,"2021-02-07 10:05:40 - glide.maint (Additional comments)
+Exchange server unavailable. Ping does not respond, and lots of
+			users calling in about it looks to be San
+			Diego, building 3, floor 4
+			that's affected.
+		
+
+","2021-02-07 10:05:40 - glide.maint (Additional comments)
+Exchange server unavailable. Ping does not respond, and lots of
+			users calling in about it looks to be San
+			Diego, building 3, floor 4
+			that's affected.
+		
+
+",ACME North America,Phone,,,,,,Can't connect to Exchange. Login credentials and network connection are working though.,,Overdue,,,,,1 - High,In Progress,False,San Diego,True,Do Not Notify,INC0000050,2021-02-07 13:58:24,,,,,1 - Critical,,0.0,,,,,,,,,3 - Low,Can't access Exchange server - is it down?,2022-10-10 22:58:24,In Progress,,Incident,glide.maint,2021-02-07 10:05:40,global,/,ef43c6d40a0a0b5700c77f9bf387afe3,5,,admin,2021-02-28 11:49:40,INC0000050,,,Proceed to Next Task,Cancel all future Tasks,1 - High,,,,,,
+True,2018-12-13 01:26:28,,Not Yet Requested,,,,Openspace,,,,,,David Miller,Hardware,,1.0,,,,,,,"2018-12-12 23:26:20 - System Administrator (Work notes)
+Updated the priority of the Incident based on the criticality of the Incident.
+
+",,,,,,,,Employee payroll application server is down.Not able to login with valid credentials.,,Normal,,,,,1 - High,New,False,,True,Do Not Notify,INC0007001,2018-10-16 22:47:10,System Administrator,,,,1 - Critical,,0.0,0.0,,,,,,,,3 - Low,Employee payroll application server is down.,UNKNOWN,New,,Incident,admin,2018-10-16 22:47:45,global,/,f12ca184735123002728660c4cf6a7ef,7,,system,2021-03-01 14:50:24,INC0007001,,,Proceed to Next Task,Cancel all future Tasks,1 - High,,,,"2018-12-12 23:26:20 - System Administrator (Work notes)
+Updated the priority of the Incident based on the criticality of the Incident.
+
+",,
+True,UNKNOWN,,Not Yet Requested,,,,,,,,,,David Miller,Inquiry / Help,,0.0,,,,,,,"2018-12-12 23:28:44 - System Administrator (Work notes)
+Updated the priority of the Incident.
+
+2018-12-12 23:26:20 - System Administrator (Work notes)
+Work note copied from Parent Incident: Updated the priority of the Incident based on the criticality of the Incident.
+
+",,,,,,,,Need access to the common drive for sharing files which can be accessed by all members. Please provide access.,,Normal,,,,,3 - Low,New,False,,True,Do Not Notify,INC0007002,2018-10-16 22:47:51,System Administrator,,,INC0007001,4 - Low,,0.0,0.0,,,,,,,,3 - Low,Need access to the common drive.,UNKNOWN,New,,Incident,admin,2018-10-16 22:48:24,global,/,ff4c21c4735123002728660c4cf6a758,4,,admin,2018-12-12 23:28:49,INC0007002,,,Proceed to Next Task,Cancel all future Tasks,2 - Medium,,,,"2018-12-12 23:28:44 - System Administrator (Work notes)
+Updated the priority of the Incident.
+
+2018-12-12 23:26:20 - System Administrator (Work notes)
+Work note copied from Parent Incident: Updated the priority of the Incident based on the criticality of the Incident.
+
+",,
